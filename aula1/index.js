@@ -1,7 +1,7 @@
 const http = require('http'); // Esta importando o modulo http
 
 http.createServer((req,res)=>{ // Função de callback que recebe informações da porta do servidor e envia respostas
-    res.writeHead(200,{ // Si ok escreva um texto. Porta 200 é a de tudo ok
+    res.writeHead(200,{ // Se ok escreva um texto. Porta 200 é a de tudo ok
         "Contentent-Type":"text/plain"
     })
 
