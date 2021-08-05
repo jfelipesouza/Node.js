@@ -7,5 +7,5 @@ http.createServer((req,res)=>{ // Função de callback que recebe informações 
 
     res.write('Felipe eh incrivel') // Leia sendo "Escreva('Oque esta escrito aqui')"
     res.end();// Finalisando o servidor 
-
+    
 }).listen(1500)/*Porta do servidor*/;
